@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.mpd-lyrics-osd" path="/org/gnome/shell/extensions/mpd-lyrics-osd/">
+    <key name="mpd-host" type="s">
+      <default>"localhost"</default>
+      <summary>MPD Host</summary>
+      <description>MPD host</description>
+    </key>
+    <key name="mpd-port" type="i">
+      <default>6600</default>
+      <summary>MPD Port</summary>
+      <description>MPD port</description>
+    </key>
+    <key name="music-directory" type="s">
+      <default>"~/Music"</default>
+      <summary>Music directory</summary>
+      <description>MPD music directory</description>
+    </key>
+    <key name="lyrics-file-name" type="s">
+      <default>"{songfilename}.lrc"</default>
+      <summary>Lyrics file name</summary>
+      <description>Lyrics file name</description>
+    </key>
+    <key name="lyrics-font" type="s">
+      <default>"Sans Bold 32"</default>
+      <summary>Lyrics font</summary>
+      <description>Lyrics font</description>
+    </key>
+    <key name="lyrics-font-color" type="a{sd}">
+      <default>{"red": 255, "green": 255, "blue": 255, "alpha": 1.0}</default>
+      <summary>Lyrics font color</summary>
+      <description>Lyrics font color</description>
+    </key>
+    <key name="lyrics-background-color" type="a{sd}">
+      <default>{"red": 0, "green": 0, "blue": 0, "alpha": 0.5}</default>
+      <summary>Lyrics background color</summary>
+      <description>Lyrics background color</description>
+    </key>
+    <key name="lyrics-position" type="i">
+      <default>1</default>
+      <summary>Lyrics position</summary>
+      <description>Lyrics position</description>
+    </key>
+    <key name="lyrics-margin" type="i">
+      <default>30</default>
+      <summary>Lyrics margin</summary>
+      <description>Lyrics margin</description>
+    </key>
+  </schema>
+</schemalist>

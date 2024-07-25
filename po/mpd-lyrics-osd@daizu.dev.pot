@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-25 09:58+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: dist/extension.js:447
+msgid "Settings"
+msgstr ""
+
+#: dist/extension.js:448
+msgid "Reload Lyrics"
+msgstr ""
+
+#: dist/extension.js:449
+msgid "Toggle Lyrics"
+msgstr ""
+
+#: dist/prefs.js:87
+msgid "Select music directory"
+msgstr ""
+
+#: dist/prefs.js:110
+msgid "Select font"
+msgstr ""
+
+#: dist/prefs.js:113
+msgid "Select font color"
+msgstr ""
+
+#: dist/prefs.js:116
+msgid "Select background color"
+msgstr ""
+
+#: dist/ui/general.ui:4
+msgid "General"
+msgstr ""
+
+#: dist/ui/general.ui:9
+msgid "MPD Connection"
+msgstr ""
+
+#: dist/ui/general.ui:10
+msgid "Sets the connection information used to connect to MPD"
+msgstr ""
+
+#: dist/ui/general.ui:16 dist/ui/general.ui:60 dist/ui/general.ui:115
+msgid "Apply"
+msgstr ""
+
+#: dist/ui/general.ui:29
+msgid "Host"
+msgstr ""
+
+#: dist/ui/general.ui:40
+msgid "Port"
+msgstr ""
+
+#: dist/ui/general.ui:53
+msgid "Lyrics Fetching"
+msgstr ""
+
+#: dist/ui/general.ui:54
+msgid "Sets how the lyrics file is retrieved for the currently playing song"
+msgstr ""
+
+#: dist/ui/general.ui:73
+msgid "Music Directory"
+msgstr ""
+
+#: dist/ui/general.ui:85
+msgid "Choose"
+msgstr ""
+
+#: dist/ui/general.ui:95
+msgid "Lyrics File Name"
+msgstr ""
+
+#: dist/ui/general.ui:108
+msgid "Lyrics Appearance"
+msgstr ""
+
+#: dist/ui/general.ui:109
+msgid "Sets the appearance of the lyrics panel"
+msgstr ""
+
+#: dist/ui/general.ui:128
+msgid "Font"
+msgstr ""
+
+#: dist/ui/general.ui:140
+msgid "Font Color"
+msgstr ""
+
+#: dist/ui/general.ui:151
+msgid "Background Color"
+msgstr ""
+
+#: dist/ui/general.ui:162
+msgid "Position"
+msgstr ""
+
+#: dist/ui/general.ui:170
+msgid "Top"
+msgstr ""
+
+#: dist/ui/general.ui:171
+msgid "Bottom"
+msgstr ""
+
+#: dist/ui/general.ui:181
+msgid "Margin"
+msgstr ""

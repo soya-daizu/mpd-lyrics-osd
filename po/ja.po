@@ -1,0 +1,126 @@
+# Japanese translations for mpd-lyrics-osd extension.
+# Copyright (C) 2024 soya_daizu
+# This file is distributed under the same license as the mpd-lyrics-osd package.
+# soya_daizu <mail@daizu.dev>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-25 09:58+0900\n"
+"PO-Revision-Date: 2024-07-24 13:45+0900\n"
+"Last-Translator: soya_daizu <mail@daizu.dev>\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 46.1\n"
+
+#: dist/extension.js:447
+msgid "Settings"
+msgstr "設定"
+
+#: dist/extension.js:448
+msgid "Reload Lyrics"
+msgstr "歌詞を再読み込み"
+
+#: dist/extension.js:449
+msgid "Toggle Lyrics"
+msgstr "歌詞を表示/非表示"
+
+#: dist/prefs.js:87
+msgid "Select music directory"
+msgstr "音楽ディレクトリを選択"
+
+#: dist/prefs.js:110
+msgid "Select font"
+msgstr "フォントを選択"
+
+#: dist/prefs.js:113
+msgid "Select font color"
+msgstr "フォントの色を選択"
+
+#: dist/prefs.js:116
+msgid "Select background color"
+msgstr "背景の色を選択"
+
+#: dist/ui/general.ui:4
+msgid "General"
+msgstr "一般"
+
+#: dist/ui/general.ui:9
+msgid "MPD Connection"
+msgstr "MPD接続"
+
+#: dist/ui/general.ui:10
+msgid "Sets the connection information used to connect to MPD"
+msgstr "MPDへの接続に使用する接続情報を設定します"
+
+#: dist/ui/general.ui:16 dist/ui/general.ui:60 dist/ui/general.ui:115
+msgid "Apply"
+msgstr "適用"
+
+#: dist/ui/general.ui:29
+msgid "Host"
+msgstr "ホスト"
+
+#: dist/ui/general.ui:40
+msgid "Port"
+msgstr "ポート"
+
+#: dist/ui/general.ui:53
+msgid "Lyrics Fetching"
+msgstr "歌詞の取得"
+
+#: dist/ui/general.ui:54
+msgid "Sets how the lyrics file is retrieved for the currently playing song"
+msgstr "再生中の曲の歌詞ファイルの取得方法を設定します"
+
+#: dist/ui/general.ui:73
+msgid "Music Directory"
+msgstr "音楽ディレクトリ"
+
+#: dist/ui/general.ui:85
+msgid "Choose"
+msgstr "選択"
+
+#: dist/ui/general.ui:95
+msgid "Lyrics File Name"
+msgstr "歌詞ファイル名"
+
+#: dist/ui/general.ui:108
+msgid "Lyrics Appearance"
+msgstr "歌詞の外観"
+
+#: dist/ui/general.ui:109
+msgid "Sets the appearance of the lyrics panel"
+msgstr "歌詞パネルの外観を設定します"
+
+#: dist/ui/general.ui:128
+msgid "Font"
+msgstr "フォント"
+
+#: dist/ui/general.ui:140
+msgid "Font Color"
+msgstr "フォントの色"
+
+#: dist/ui/general.ui:151
+msgid "Background Color"
+msgstr "背景の色"
+
+#: dist/ui/general.ui:162
+msgid "Position"
+msgstr "表示位置"
+
+#: dist/ui/general.ui:170
+msgid "Top"
+msgstr "上部"
+
+#: dist/ui/general.ui:171
+msgid "Bottom"
+msgstr "下部"
+
+#: dist/ui/general.ui:181
+msgid "Margin"
+msgstr "余白"

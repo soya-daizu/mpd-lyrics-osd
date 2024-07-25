@@ -1,0 +1,41 @@
+{
+  "name": "mpd-lyrics-osd",
+  "version": "0.0.0",
+  "description": "Displays synchronized lyrics of the song currently playing on MPD",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soya-daizu/mpd-lyrics-osd.git"
+  },
+  "author": "Sosuke Inaba <mail@daizu.dev>",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/soya-daizu/mpd-lyrics-osd/issues"
+  },
+  "homepage": "https://github.com/soya-daizu/mpd-lyrics-osd#readme",
+  "sideEffects": false,
+  "devDependencies": {
+    "@girs/adw-1": "1.6.0-4.0.0-beta.11",
+    "@girs/dazzle-1.0": "3.44.0-4.0.0-beta.11",
+    "@girs/gdk-4.0": "4.0.0-4.0.0-beta.11",
+    "@girs/gio-2.0": "2.80.3-4.0.0-beta.11",
+    "@girs/gjs": "4.0.0-beta.11",
+    "@girs/glib-2.0": "2.80.3-4.0.0-beta.11",
+    "@girs/gnome-shell": "^46.0.1",
+    "@girs/gobject-2.0": "2.80.3-4.0.0-beta.11",
+    "@girs/gtk-4.0": "4.14.4-4.0.0-beta.11",
+    "@girs/pango-1.0": "1.54.0-4.0.0-beta.11",
+    "@girs/st-14": "14.0.0-4.0.0-beta.11",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3",
+    "rollup": "^4.19.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "clrc": "^3.1.4"
+  }
+}

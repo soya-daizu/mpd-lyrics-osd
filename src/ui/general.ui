@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<interface domain="mpd-lyrics-osd@daizu.dev">
+  <template class="MPDGeneralPrefs" parent="AdwPreferencesPage">
+    <property name="title" translatable="yes">General</property>
+    <property name="icon-name">settings-symbolic</property>
+    <property name="name">general</property>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">MPD Connection</property>
+        <property name="description" translatable="yes">Sets the connection information used to connect to MPD</property>
+        <property name="header-suffix">
+          <object class="GtkButton" id="mpdConnectionApplyButton">
+            <property name="child">
+              <object class="AdwButtonContent">
+                <property name="icon-name">checkmark-symbolic</property>
+                <property name="label" translatable="yes">Apply</property>
+              </object>
+            </property>
+            <property name="margin-start">15</property>
+            <property name="sensitive">False</property>
+            <property name="valign">center</property>
+            <style>
+              <class name="suggested-action"/>
+            </style>
+          </object>
+        </property>
+        <child>
+          <object class="AdwActionRow" id="mpdHostRow">
+            <property name="title" translatable="yes">Host</property>
+            <child>
+              <object class="GtkEntry" id="mpdHostEntry">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="mpdPortRow">
+            <property name="title" translatable="yes">Port</property>
+            <child>
+              <object class="GtkEntry" id="mpdPortEntry">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Lyrics Fetching</property>
+        <property name="description" translatable="yes">Sets how the lyrics file is retrieved for the currently playing song</property>
+        <property name="header-suffix">
+          <object class="GtkButton" id="lyricsFetchingApplyButton">
+            <property name="child">
+              <object class="AdwButtonContent">
+                <property name="icon-name">checkmark-symbolic</property>
+                <property name="label" translatable="yes">Apply</property>
+              </object>
+            </property>
+            <property name="margin-start">15</property>
+            <property name="sensitive">False</property>
+            <property name="valign">center</property>
+            <style>
+              <class name="suggested-action"/>
+            </style>
+          </object>
+        </property>
+        <child>
+          <object class="AdwActionRow" id="musicDirectoryRow">
+            <property name="title" translatable="yes">Music Directory</property>
+            <child>
+              <object class="GtkEntry" id="musicDirectoryEntry">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton" id="musicDirectoryChooseButton">
+                <property name="child">
+                  <object class="AdwButtonContent">
+                    <property name="icon-name">folder-open-symbolic</property>
+                    <property name="label" translatable="yes">Choose</property>
+                  </object>
+                </property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="lyricsFileNameRow">
+            <property name="title" translatable="yes">Lyrics File Name</property>
+            <child>
+              <object class="GtkEntry" id="lyricsFileNameEntry">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Lyrics Appearance</property>
+        <property name="description" translatable="yes">Sets the appearance of the lyrics panel</property>
+        <property name="header-suffix">
+          <object class="GtkButton" id="lyricsAppearanceApplyButton">
+            <property name="child">
+              <object class="AdwButtonContent">
+                <property name="icon-name">checkmark-symbolic</property>
+                <property name="label" translatable="yes">Apply</property>
+              </object>
+            </property>
+            <property name="margin-start">15</property>
+            <property name="sensitive">False</property>
+            <property name="valign">center</property>
+            <style>
+              <class name="suggested-action"/>
+            </style>
+          </object>
+        </property>
+        <child>
+          <object class="AdwActionRow" id="lyricsFontRow">
+            <property name="title" translatable="yes">Font</property>
+            <child>
+              <object class="GtkFontDialogButton" id="lyricsFontChooseButton">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+                <property name="level">font</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="lyricsFontColorRow">
+            <property name="title" translatable="yes">Font Color</property>
+            <child>
+              <object class="GtkColorDialogButton" id="lyricsFontColorChooseButton">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="lyricsBackgroundColorRow">
+            <property name="title" translatable="yes">Background Color</property>
+            <child>
+              <object class="GtkColorDialogButton" id="lyricsBackgroundColorChooseButton">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="lyricsPositionRow">
+            <property name="title" translatable="yes">Position</property>
+            <child>
+              <object class="GtkDropDown" id="lyricsPositionDropDown">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+                <property name="model">
+                  <object class="GtkStringList">
+                    <items>
+                      <item translatable="yes">Top</item>
+                      <item translatable="yes">Bottom</item>
+                    </items>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow" id="lyricsMarginRow">
+            <property name="title" translatable="yes">Margin</property>
+            <child>
+              <object class="GtkSpinButton" id="lyricsMarginSpin">
+                <property name="margin-start">5</property>
+                <property name="valign">center</property>
+                <property name="numeric">True</property>
+                <property name="adjustment">
+                  <object class="GtkAdjustment">
+                    <property name="step-increment">1.0</property>
+                    <property name="lower">0.0</property>
+                    <property name="upper">1000.0</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

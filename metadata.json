@@ -1,0 +1,11 @@
+{
+  "name": "MPD Lyrics OSD",
+  "description": "Displays synchronized lyrics of the song currently playing on MPD",
+  "uuid": "mpd-lyrics-osd@daizu.dev",
+  "url": "https://github.com/soya-daizu/mpd-lyrics-osd",
+  "settings-schema": "org.gnome.shell.extensions.mpd-lyrics-osd",
+  "gettext-domain": "mpd-lyrics-osd@daizu.dev",
+  "shell-version": [
+    "46"
+  ]
+}
